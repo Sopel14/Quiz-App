@@ -1,46 +1,41 @@
-# quiz-app
+Project Overview
+This app is a Vue quiz application designed to provide users with a series of questions in a specific category. The application is built using modern front-end technologies, including Vue 3, TypeScript, Pinia for state management, and Vue Router for navigation. Users can navigate through questions, view their progress, and see a summary of their results at the end of the quiz. The app is also equipped with unit tests using Vitest to ensure code quality and reliability.
 
-This template should help get you started developing with Vue 3 in Vite.
+How to Run the App Locally
+To set up and run the app on your local machine, follow these steps:
 
-## Recommended IDE Setup
+Clone the Repository
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Open your terminal and clone the repository using the following command:
+bash
+git clone https://github.com/Sopel14/Quiz-App.git
+Navigate to the Project Directory
 
-## Type Support for `.vue` Imports in TS
+Change into the project directory:
+bash
+cd Quiz-App
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+Install the required dependencies using npm or Yarn:
+Using npm:
 npm install
-```
 
-### Compile and Hot-Reload for Development
+Using Yarn:
+yarn install
 
-```sh
+Start the development server to run the app locally:
+Using npm:
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
+Using Yarn:
+yarn dev
+The app will be accessible at http://localhost:3000 by default.
+Run the Tests
 
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
+To ensure everything is working correctly, run the unit tests:
+Using npm:
 npm run test:unit
-```
+Using Yarn:
+yarn test:unit
 
-### Lint with [ESLint](https://eslint.org/)
 
-```sh
-npm run lint
-```
-# Quiz-App
+By following these steps, you'll have the quiz application running locally and be able to explore its features, as well as verify its functionality through the included tests.
